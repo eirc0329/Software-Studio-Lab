@@ -1,0 +1,38 @@
+{
+  "auth": {
+    "labweathermoodauthe29a6140": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_labweathermoodauthe29a6140_googleClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "labweathermoodauthe29a6140"
+        }
+      ]
+    }
+  }
+}
